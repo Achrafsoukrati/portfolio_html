@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Victor+Mono:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Victor Mono', monospace;
+}
+header{
+    height:100vh;
+    width: 100%;
+    background-image:url(building\ 4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: #EEEEEE;
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-family: 'Victor Mono', monospace;
+}
+#lio{
+    color: #CF0A0A;
+}
+header nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+header nav ul li a{
+    color:#EEEEEE;
+    text-decoration: none;
+    font-weight: bold;
+}
+header nav ul li a:hover{
+    color: #CF0A0A;
+    transition: .4s;
+}
+.intro{
+    position: absolute;
+    top: 60%;
+    left:35%;
+    transform: translateY(-50%); 
+}
+#p1{
+    color: #EEEEEE;
+    font-size: 30px;
+}
+#p2{
+    color: #EEEEEE;
+    font-size:  70px;
+    font-weight: 600;
+}
+#p3{
+    color: #EEEEEE;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+#souk{
+    color:#CF0A0A ;
+}
+#about{  
+    height:100vh;
+    width: 100%;
+    background-image:url(building\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+#about img{
+    width: 330px;
+    height: auto;
+}
+.abou2{
+
+    padding-top: 0px;
+    padding-left: 200px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.T1H1{
+    color: #EEEEEE;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+.T1H2{
+    color: #EEEEEE;
+    font-size:  30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+#EXP{
+    color: #CF0A0A;
+}
+.T1P{
+    color: #EEEEEE;
+    font-size: 20px;
+}
+button{
+    background-color: #CF0A0A;
+    color: #EEEEEE;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid #CF0A0A;
+    cursor: pointer;
+}
+
+#Services{  
+    height:100vh;
+    width: 100%;
+    background-image:url(building\ 5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.TIT2{
+    text-align: center;
+    padding: 70px;
+    color: #EEEEEE;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+
+.BOX{
+    display: flex;
+    justify-content: space-evenly;
+}
+h4{
+    color: #CF0A0A;
+    margin-bottom: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    
+}
+.box1, .box2, .box3, .box4{
+    height: 370px;
+    width: 300px;
+    padding: 30px;
+    text-align: center;
+    background-color: #44444479;
+    border-radius: 20px;
+    color: #EEEEEE;
+}
+
+#resume{
+    height:100vh;
+    width: 100%;
+    background-image:url(building\ 6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.T3{
+    text-align: center;
+    padding: 70px;
+    color: #EEEEEE;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+.T3par
+
+
+
+
+
+
+
